@@ -1,0 +1,18 @@
+<h3>Admin Registration</h3>
+<div>
+  <form [formGroup]="adminForm">
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" formControlName="name">
+    </div>
+    <div class="form-group">
+      <label>Phone Number</label>
+      <input type="number" formControlName="phoneNumber">
+    </div>
+    <div class="form-group">
+      <label>Pin Code</label>
+      <input type="number" formControlName="pinCode">
+    </div>
+  </form>
+  <button (click)="Submit()">Submit</button>
+</div>

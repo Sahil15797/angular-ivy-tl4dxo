@@ -1,0 +1,30 @@
+<h3>User Registration</h3>
+<div>
+  <form [formGroup]="userForm">
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" formControlName="name">
+    </div>
+    <div class="form-group">
+      <label>Phone Number</label>
+      <input type="number" formControlName="phoneNumber">
+    </div>
+    <div class="form-group">
+      <label>Pin Code</label>
+      <input type="number" formControlName="pinCode">
+    </div>
+    <div class="form-group">
+      <label>Symptoms</label>
+      <input type="text" formControlName="symptoms">
+    </div>
+    <div class="form-group">
+      <label>Travel History</label>
+      <input type="text" formControlName="travelHistory">
+    </div>
+    <div class="form-group">
+      <label>Contact with Covid</label>
+      <input type="text" formControlName="contactWithCovidPatient">
+    </div>
+  </form>
+  <button (click)="Submit()">Submit</button>
+</div>

@@ -1,0 +1,20 @@
+[
+  {
+    "userId": "1",
+    "symptoms": ["cough"],
+    "travelHistory": true,
+    "contactWithCovidPatient": true
+  },
+  {
+    "userId": "2",
+    "symptoms": ["fever", "cough"],
+    "travelHistory": true,
+    "contactWithCovidPatient": false
+  },
+  {
+    "userId": "3",
+    "symptoms": ["fever", "cold", "cough"],
+    "travelHistory": true,
+    "contactWithCovidPatient": true
+  }
+]
